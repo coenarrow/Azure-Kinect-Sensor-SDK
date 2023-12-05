@@ -426,6 +426,7 @@ int main(int argc, char **argv)
     device_config.wired_sync_mode = wired_sync_mode;
     device_config.depth_delay_off_color_usec = depth_delay_off_color_usec;
     device_config.subordinate_delay_off_master_usec = subordinate_delay_off_master_usec;
+    device_config.synchronized_images_only = false;
 
     return do_recording((uint8_t)device_index,
                         recording_filename,

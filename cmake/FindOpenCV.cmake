@@ -5,7 +5,7 @@ else()
 endif()
 
 if ("${CMAKE_SYSTEM_NAME}" STREQUAL "Windows")
-	find_package (OpenCV CONFIG PATHS "C:/opencv/build/x64/vc14/lib" ${OpenCV_REQ_FLAG})
+	find_package (OpenCV CONFIG PATHS "C:/opencv/build/x64/vc16/lib" ${OpenCV_REQ_FLAG})
 else()
 	find_package (OpenCV CONFIG ${OpenCV_REQ_FLAG})
 endif ()
