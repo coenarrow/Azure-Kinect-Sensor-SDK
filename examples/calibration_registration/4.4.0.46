@@ -1,0 +1,11 @@
+Collecting opencv-contrib-python
+  Downloading opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting numpy>=1.17.0 (from opencv-contrib-python)
+  Downloading numpy-1.26.3-cp39-cp39-win_amd64.whl.metadata (61 kB)
+     ---------------------------------------- 61.2/61.2 kB 1.1 MB/s eta 0:00:00
+Downloading opencv_contrib_python-4.9.0.80-cp37-abi3-win_amd64.whl (45.3 MB)
+   ---------------------------------------- 45.3/45.3 MB 11.7 MB/s eta 0:00:00
+Downloading numpy-1.26.3-cp39-cp39-win_amd64.whl (15.8 MB)
+   ---------------------------------------- 15.8/15.8 MB 12.1 MB/s eta 0:00:00
+Installing collected packages: numpy, opencv-contrib-python
+Successfully installed numpy-1.26.3 opencv-contrib-python-4.9.0.80
